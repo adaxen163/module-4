@@ -1,0 +1,7 @@
+from math import isinf
+
+
+def divide(first, second):
+    if second == 0:
+        return isinf(first)
+    return first / second
